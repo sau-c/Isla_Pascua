@@ -88,3 +88,55 @@ footer {
 #redes-sociales a:hover {
   background-color: #666;
 }
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  .menu {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .menu a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    background-color: #666;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
